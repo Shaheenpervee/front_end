@@ -1,0 +1,8 @@
+npm install -g create-react-app
+create-react-app reactproject
+npm install react-router-dom
+npm install axios
+
+
+---- start---
+npm start
