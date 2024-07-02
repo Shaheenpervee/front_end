@@ -1,0 +1,131 @@
+/* Global styles */
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+.message-box {
+    margin-top: 20px;
+    font-size: 20px;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    width: 320px auto;
+    margin: 20px auto;
+    background-color: #f0f8ff;
+}
+/* Drop zone styles */
+.drop-zone {
+    width: 80vw;
+    height: 20vh;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin: 10px;
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drop-zone:hover {
+    border-color: #888;
+}
+
+/* Button styles */
+.button-group button,
+.tabs button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button {
+    background-color: #0462ef;
+    color: white;
+}
+
+.tabs button {
+    background: #757575;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.button-group button:hover,
+.tabs button:hover {
+    background-color: #042e71; /* Updated color for better contrast */
+}
+
+/* Tab styles */
+.tabs {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.tabs button.active {
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Tab content styles */
+
+.tab-content {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    color: black;
+    padding: 20px; /* Optional: Adds some padding for better readability */
+    border: 1px solid #ccc; /* Optional: Adds a border around the content */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+  }
+/* Styling for the div containing labels and selects */
+.select-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.select-container label {
+    margin-right: 10px;
+}
+
+.select-container select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.select-container select:focus {
+    outline: none;
+    border-color: #0066ff;
+}
+
+.tab-content img {
+    max-width: 500px; 
+    height: auto; 
+  }
+  
+.tab-content table {
+    width: 100%;
+}
+
+.tab-content tr {
+    max-width: max-content;
+}

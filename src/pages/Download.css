@@ -1,0 +1,33 @@
+
+.download-list {
+    margin: 20px;
+    padding: 0;
+}
+
+.download-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spacing between items */
+}
+
+.item-button {
+    margin-right: 20px; /* Space between button and text */
+    cursor: pointer;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-title {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.item-description {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
